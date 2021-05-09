@@ -112,11 +112,18 @@ nav ul li{
   border-top:1px solid var(--color-black);
 }
 nav ul li a{
+  display: block;
   font-weight: 400;
   color:var(--color-black);
   text-transform: capitalize;
   text-align:left;
+  transition: all 0.25s ease-out;
 }
+nav ul li a:hover{
+  transform: translateX(10px);
+  font-weight: 500;
+}
+
 
 /* top header */
 .wrapper .top{
