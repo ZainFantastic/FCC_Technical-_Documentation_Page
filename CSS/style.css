@@ -129,7 +129,7 @@ nav ul li a{
   top:0;
   left: 0;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
   box-shadow: 0 5px 10px rgba(0,0,0,0.05);
   z-index: 5;
